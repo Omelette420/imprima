@@ -1,0 +1,48 @@
+/* Main Section Styling */
+.main-section {
+    background-color: #f8f9fa;
+    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.video-container {
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+.footer {
+    padding: 20px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Disable interaction with the video element */
+.no-controls {
+    pointer-events: none; /* Disables all mouse/keyboard/touch interaction */
+}
+
+video::-webkit-media-controls-timeline {
+    display: none;
+  }
+  video::-webkit-media-controls-time-remaining-display {
+    display: none;
+  }
+  video::-webkit-media-controls-current-time-display {
+    display: none;
+  }
