@@ -46,3 +46,54 @@ video::-webkit-media-controls-timeline {
   video::-webkit-media-controls-current-time-display {
     display: none;
   }
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social-icon {
+    font-size: 24px; /* Adjust icon size if needed */
+}
+
+.footer .border-white {
+    border-width: 2px; /* Adjust the border thickness */
+}
+
+.carousel-item {
+    padding: 20px;
+}
+.carousel img {
+    border-radius: 10px;
+}
+
+.carousel-item {
+    padding: 10px; /* Reduce padding for a more compact look */
+}
+.carousel h5 {
+    font-size: 16px; /* Reduce font size of the headings */
+}
+.carousel p {
+    font-size: 14px; /* Reduce font size of the description */
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    width: 60px; /* Button width */
+    height: 60px; /* Button height */
+    border-radius: 50%; /* Circular button */
+    background-color: #25D366; /* WhatsApp green color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Shadow for a floating effect */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.whatsapp-float img {
+    width: 40%; /* Image size */
+    height: auto; /* Maintain aspect ratio */
+
+    }
+
