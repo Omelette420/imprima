@@ -14,7 +14,7 @@ function loadHTML(id, url) {
   
   // Load header and footer on every page
   window.addEventListener("DOMContentLoaded", () => {
-    loadHTML("header", "/partials/header.html");
-    loadHTML("footer", "/partials/footer.html");
+    loadHTML("header", "partials/header.html");
+    loadHTML("footer", "partials/footer.html");
   });
   
